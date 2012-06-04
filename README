@@ -1,0 +1,19 @@
+lift_25_sbt11_mongo_mpu
+=======================
+
+The Lift example application using Lift 2.5-SNAPSHOT, sbt 0.11.3, MongoDB and MegaProtoUser
+
+> cd lift_25_sbt11_mongo_mpu
+> ./sbt
+> container:start
+
+Your webapp is running on http://localhost:8080
+
+The template also has support for:
+
+- the sbt idea plugin (gen-idea)
+- the sbt eclipse plugin
+- JRebel (not scanning scanDirs)
+- Jetty 7
+
+This template uses Mongo DB and Lift's Record MegaProtoUser and is currently NOT functioning.
